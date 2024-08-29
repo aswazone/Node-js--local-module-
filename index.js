@@ -34,10 +34,15 @@ const Superhero = require('./super-Hero');
 // console.log(math.add(1,2));
 // console.log(math.substract(1,2));//now we can call both the function from that math object
 
-const math = require("./math");//object is recieving
-// also destructuring the object
-const {add,substract} = math;
+// const math = require("./math");//object is recieving
+// // also destructuring the object
+// const {add,substract} = math;
 
-console.log(add(1,2));
-console.log(substract(1,2));//now we can call both the function from that math object
+// console.log(add(1,2));
+// console.log(substract(1,2));//now we can call both the function from that math object
 
+//JSON feature
+const data = require('./data.json');//must we use extension
+
+console.log(data.address);//simillar to the object
+console.log(data.address.city);
