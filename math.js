@@ -24,7 +24,7 @@
 //         return a-b;
 // }
 
-exports.add = (a,b)=>{//fourth PATTERN-exports only-------------------------------------------------
+exports.add = (a,b) => {//fourth PATTERN-exports only-------------------------------------------------
     return a+b;
 }
 
