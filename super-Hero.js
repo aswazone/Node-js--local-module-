@@ -11,5 +11,7 @@ class Superhero {
         this.name = name;
     }
 }
-let xyz = new Superhero();
-module.exports = xyz;
+// let xyz = new Superhero();
+// module.exports = xyz;
+
+module.exports = Superhero;
