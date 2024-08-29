@@ -42,7 +42,9 @@ const Superhero = require('./super-Hero');
 // console.log(substract(1,2));//now we can call both the function from that math object
 
 //JSON feature
-const data = require('./data.json');//must we use extension
+// const data = require('./data.json');//must we use extension
 
-console.log(data.address);//simillar to the object
-console.log(data.address.city);
+// console.log(data.address);//simillar to the object
+// console.log(data.address.city);
+console.log("HEY Aswin..");
+console.log("HEY Asreya..");
