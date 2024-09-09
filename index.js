@@ -30,11 +30,11 @@ const Superhero = require('./super-Hero');
 // const add = require("./math");//1ST PATTERN
 // console.log(add(1,2));
 
-// const math = require("./math");//object is recieving
+// const math = require("./math");//object is recieving//2ND PATTERN
 // console.log(math.add(1,2));
 // console.log(math.substract(1,2));//now we can call both the function from that math object
 
-// const math = require("./math");//object is recieving
+// const math = require("./math");//object is recieving//4TH PATTERN
 // // also destructuring the object
 // const {add,substract} = math;
 
